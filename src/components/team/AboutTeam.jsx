@@ -66,9 +66,7 @@ const AboutTeam = () => {
       <section className="team__area pt-140 pb-140">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title title-anim">Our Team</h2>
-          <h3 className="sec-title title-anim">
-            Behind the code
-          </h3>
+          <h3 className="sec-title title-anim">Behind the code</h3>
         </div>
 
         <div className="team__slider">
@@ -90,6 +88,7 @@ const AboutTeam = () => {
                 slidesPerView: 4,
               },
             }}
+            style={{ userSelect: "none" }}
           >
             <SwiperSlide>
               <div className="team__slide">
@@ -136,7 +135,9 @@ const AboutTeam = () => {
                   />
                   <div className="team__info">
                     <h4 className="team__member-name">Mirko Jahn</h4>
-                    <h5 className="team__member-role">Senior Finance Manager & Business Advisor</h5>
+                    <h5 className="team__member-role">
+                      Senior Finance Manager & Business Advisor
+                    </h5>
                   </div>
                 </Link>
               </div>

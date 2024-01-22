@@ -80,7 +80,9 @@ const ServiceDetailsFaq = () => {
                           The cost of your project will depend on the size and
                           complexity of the project. We will provide you with a
                           detailed estimate after we have a clear understanding
-                          of your project requirements.
+                          of your project requirements. We are also very
+                          transparent about our pricing. We will never charge a
+                          cent more than what we quoted you.
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
