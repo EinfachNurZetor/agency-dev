@@ -83,13 +83,18 @@ export default function Footer5() {
             <h4 className="cat_title">useful links</h4>
             <ul className="cat_links menu-anim" ref={menuAnim}>
               <li>
-                <a href="https://nunosoft.net">company</a>
+                <Link href="https://nunosoft.net">company</Link>
               </li>
               <li>
-                <a href="https://nunosoft.net/career">career</a>
+                <Link href="https://nunosoft.net/career">career</Link>
               </li>
               <li>
-                <a href="#">privacy policy</a>
+                <Link href="https://legal.nunosoft.net/privacy">
+                  privacy policy
+                </Link>
+              </li>
+              <li>
+                <Link href="https://legal.nunosoft.net/imprint">imprint</Link>
               </li>
             </ul>
           </div>
@@ -97,16 +102,17 @@ export default function Footer5() {
             <h4 className="cat_title">follow us</h4>
             <ul className="cat_links menu-anim" ref={menuAnim2}>
               <li>
-                <a href="#">LinkedIn</a>
+                <Link href="https://www.linkedin.com/company/nunosoft/">
+                  LinkedIn
+                </Link>
               </li>
               <li>
-                <a href="#">Twitter</a>
+                <Link href="https://twitter.com/nunosoftnet">Twitter</Link>
               </li>
               <li>
-                <a href="#">Instagram</a>
-              </li>
-              <li>
-                <a href="#">YouTube</a>
+                <Link href="https://www.instagram.com/nunosoftnet/">
+                  Instagram
+                </Link>
               </li>
             </ul>
           </div>
