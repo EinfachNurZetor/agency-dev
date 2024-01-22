@@ -150,8 +150,8 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                       }
                     >
                       <li>
-                        <Link href={"https://dev.nunosoft.net"}>
-                          Nunosoft Development
+                        <Link href={"https://games.nunosoft.net"}>
+                          Nunosoft Games
                         </Link>
                       </li>
                       <li>
