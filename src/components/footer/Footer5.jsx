@@ -25,17 +25,17 @@ export default function Footer5() {
     let rootParent = data.current.children;
     for (let i = 0; i < rootParent.length; i++) {
       let firstParent = rootParent[i].children;
-      let arr = firstParent[0].textContent.split("")
-      let spanData = ''
+      let arr = firstParent[0].textContent.split("");
+      let spanData = "";
       for (let j = 0; j < arr.length; j++) {
-        if(arr[j] == ' ') {
+        if (arr[j] == " ") {
           spanData += `<span style='width:6px;'>${arr[j]}</span>`;
         } else {
           spanData += `<span>${arr[j]}</span>`;
         }
       }
-      let result = '<div class="menu-text">' + spanData + '</div>';
-      firstParent[0].innerHTML = result
+      let result = '<div class="menu-text">' + spanData + "</div>";
+      firstParent[0].innerHTML = result;
     }
   };
   return (
@@ -61,12 +61,12 @@ export default function Footer5() {
                 <div className="swiper-wrapper">
                   <SwiperSlide>
                     <h2 className="rollslide_title-1">
-                      {"let's"} <span> contact </span>
+                      {"let's"} <span> connect </span>
                     </h2>
                   </SwiperSlide>
                   <SwiperSlide>
                     <h2 className="rollslide_title-1">
-                      {"let's"} <span> contact </span>
+                      {"let's"} <span> connect </span>
                     </h2>
                   </SwiperSlide>
                 </div>
@@ -83,16 +83,13 @@ export default function Footer5() {
             <h4 className="cat_title">useful links</h4>
             <ul className="cat_links menu-anim" ref={menuAnim}>
               <li>
-                <a href="#">company</a>
+                <a href="https://nunosoft.net">company</a>
               </li>
               <li>
-                <a href="#">career</a>
+                <a href="https://nunosoft.net/career">career</a>
               </li>
               <li>
                 <a href="#">privacy policy</a>
-              </li>
-              <li>
-                <a href="#">project</a>
               </li>
             </ul>
           </div>
@@ -100,16 +97,16 @@ export default function Footer5() {
             <h4 className="cat_title">follow us</h4>
             <ul className="cat_links menu-anim" ref={menuAnim2}>
               <li>
-                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
               </li>
               <li>
-                <a href="#">twitter</a>
+                <a href="#">Twitter</a>
               </li>
               <li>
-                <a href="#">instagram</a>
+                <a href="#">Instagram</a>
               </li>
               <li>
-                <a href="#">linkedin</a>
+                <a href="#">YouTube</a>
               </li>
             </ul>
           </div>
@@ -137,8 +134,8 @@ export default function Footer5() {
         <div className="footer__copyright-8">
           <p>
             © Alrights reserved by{" "}
-            <a href="https://wealcoder.com/" target="_blank">
-              Wealcoder
+            <a href="https://nunosoft.net/" target="_blank">
+              Nunosoft
             </a>
           </p>
         </div>

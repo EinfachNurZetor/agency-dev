@@ -19,7 +19,7 @@ const DesignStudio = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header2" footer="footer2">
+        <RootLayout header="header1" footer="footer2">
           <DesignStudioHero />
           <DesignStudioFeature />
           <DesignStudioRoll />

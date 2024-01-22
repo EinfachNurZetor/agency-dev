@@ -104,22 +104,6 @@ export default function Header1({ navData }) {
                 <NavItem nav={navData.nav} navStyle={3} />
               )}
               <div className="header__nav-icon-3">
-                <button
-                  className="search-icon"
-                  onClick={openSearch}
-                  id="search_icon"
-                  ref={searchIcon}
-                >
-                  <i className="fa-solid fa-magnifying-glass"></i>
-                </button>
-                <button
-                  className="search-icon"
-                  onClick={closeSearch}
-                  id="search_close"
-                  ref={searchClose}
-                >
-                  <i className="fa-solid fa-xmark"></i>
-                </button>
                 <button onClick={openCanvas}>
                   <Image
                     priority

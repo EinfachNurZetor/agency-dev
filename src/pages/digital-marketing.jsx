@@ -19,7 +19,7 @@ export default function DigitalMarketing() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header1" footer="footer1">
+        <RootLayout header="header1" footer="footer5">
           <DigitalMarketingHero />
           <DigitalMarketingBrand />
           <DigitalMarketingAbout />

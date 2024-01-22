@@ -19,7 +19,7 @@ const DesignStudioDark = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <RootLayout header="header2" footer="footer2" defaultMode="dark">
+        <RootLayout header="header1" footer="footer2" defaultMode="dark">
           <DesignStudioHero />
           <DesignStudioFeature />
           <DesignStudioRoll />
