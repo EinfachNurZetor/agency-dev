@@ -15,7 +15,6 @@ const ServiceV4 = () => {
       <main>
         <RootLayout header="header3" footer="footer3">
           <DigitalMarketingService />
-          <ServiceBrand />
           <DigitalAgencyCTA />
         </RootLayout>
       </main>

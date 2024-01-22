@@ -9,7 +9,6 @@ const DigitalMarketingService = () => {
   const serviceList = useRef();
   useEffect(() => {
     if (typeof window !== "undefined") {
-      imageAnimation(serviceList.current.children);
       let tHero = gsap.context(() => {
         let service__items_3 = gsap.utils.toArray(".service_animation");
         let service__items_heading = gsap.utils.toArray(
@@ -61,21 +60,6 @@ const DigitalMarketingService = () => {
     }
   }, []);
 
-  const imageAnimation = (data) => {
-    function followImageCursor(event, serviceImgItem) {
-      const contentBox = serviceImgItem.getBoundingClientRect();
-      const dx = event.clientX - contentBox.x;
-      const dy = event.clientY - contentBox.y;
-      serviceImgItem.children[3].style.transform = `translate(${dx}px, ${dy}px)`;
-    }
-
-    for (let i = 0; i < data.length; i++) {
-      data[i].addEventListener("mousemove", (event) => {
-        setInterval(followImageCursor(event, data[i]), 1000);
-      });
-    }
-  };
-
   return (
     <>
       <section className="service__area-3 pb-150">
@@ -85,13 +69,12 @@ const DigitalMarketingService = () => {
               <div className="sec-title-wrapper pt-130 text-anim">
                 <h2 className="sec-sub-title title-anim">Services</h2>
                 <h3 className="sec-title title-anim">
-                  Our marketing <br /> Services
+                  Our development <br /> Services
                 </h3>
                 <p>
-                  Consumers today rely heavily on digital means to research
-                  products. We research a brand of bldend engaging with it,
-                  according to the meanwhile, 51% of consumers say they use
-                  Google to research products before buying.
+                  We create digital experiences for brands and companies by
+                  using creativity & technology. For the past 8 years, we have
+                  been creating high-performance websites, apps, and products.
                 </p>
               </div>
             </div>
@@ -102,26 +85,28 @@ const DigitalMarketingService = () => {
               <div className="service__list-3" ref={serviceList}>
                 <div className="service__item-3 service_animation">
                   <h3>
-                    <Link href="/service-details" className="service__title-3">
-                      Search Engine <br />
-                      Optimization
+                    <Link
+                      href="/service-web-development"
+                      className="service__title-3"
+                    >
+                      Web <br /> Development
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                      Websites are the most important part of your business. We
+                      help you to build your website with the latest technology.
                     </p>
                     <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
+                      <li>+ Web Design</li>
+                      <li>+ Web Development</li>
+                      <li>+ Web Maintenance</li>
                     </ul>
                   </div>
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/service-web-development"
                         className="wc-btn-black btn-hover btn-item"
                       >
                         <span></span> Details
@@ -129,37 +114,34 @@ const DigitalMarketingService = () => {
                       </Link>
                     </div>
                   </div>
-
-                  <div
-                    className="service__hover-3"
-                    style={{
-                      backgroundImage: "url(assets/imgs/service/3/1.jpg)",
-                    }}
-                  ></div>
                 </div>
 
                 <div className="service__item-3 service_animation">
                   <h3>
-                    <Link href="/service-details" className="service__title-3 ">
-                      Email <br />
-                      Marketing
+                    <Link
+                      href="/service-software-development"
+                      className="service__title-3 "
+                    >
+                      Software <br />
+                      Development
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                      Software is used to automate business processes, increase
+                      efficiency, and reduce human error. We create your custom
+                      software to meet your business needs.
                     </p>
                     <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
+                      <li>+ Mobile Applications</li>
+                      <li>+ Desktop Applications</li>
+                      <li>+ Maintenance</li>
                     </ul>
                   </div>
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/service-software-development"
                         className="wc-btn-black btn-hover btn-item"
                       >
                         <span></span> Details
@@ -167,38 +149,35 @@ const DigitalMarketingService = () => {
                       </Link>
                     </div>
                   </div>
-
-                  <div
-                    className="service__hover-3"
-                    style={{
-                      backgroundImage: "url(assets/imgs/service/3/2.png)",
-                    }}
-                  ></div>
                 </div>
 
                 <div className="service__item-3 service_animation">
                   <h3 className="">
-                    <Link href="/service-details" className="service__title-3">
-                      COntent
+                    <Link
+                      href="/service-ecommerce"
+                      className="service__title-3"
+                    >
+                      E-Commerce
                       <br />
-                      Marketing
+                      Development
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                      E-Commerce is the buying and selling of products and
+                      services online. We create your online store - you sell
+                      your goods.
                     </p>
                     <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
+                      <li>+ Design</li>
+                      <li>+ Development</li>
+                      <li>+ Maintenance</li>
                     </ul>
                   </div>
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/service-ecommerce"
                         className="wc-btn-black btn-hover btn-item"
                       >
                         <span></span> Details
@@ -206,38 +185,32 @@ const DigitalMarketingService = () => {
                       </Link>
                     </div>
                   </div>
-
-                  <div
-                    className="service__hover-3"
-                    style={{
-                      backgroundImage: "url(assets/imgs/service/3/3.png)",
-                    }}
-                  ></div>
                 </div>
 
                 <div className="service__item-3 service_animation">
                   <h3 className="">
-                    <Link href="/service-details" className="service__title-3">
-                      Social
+                    <Link href="/service-devops" className="service__title-3">
+                      DevOps
                       <br />
-                      Marketing
+                      Services
                     </Link>
                   </h3>
                   <div className="service__content-3">
                     <p>
-                      We help brands stand out through aweful, elegant visual
-                      design. Our design mainly philosophy.
+                      DevOps is a set of practices that combines software and IT
+                      operations. We help you to automate your business
+                      processes.
                     </p>
                     <ul className="">
-                      <li>+ Logo Design</li>
-                      <li>+ Advertisement</li>
-                      <li>+ Promotion</li>
+                      <li>+ Cloud Services</li>
+                      <li>+ Automation</li>
+                      <li>+ Maintenance</li>
                     </ul>
                   </div>
                   <div className="service__btn-3">
                     <div className="btn_wrapper">
                       <Link
-                        href="/service-details"
+                        href="/service-devops"
                         className="wc-btn-black btn-hover btn-item"
                       >
                         <span></span> Details
@@ -245,13 +218,76 @@ const DigitalMarketingService = () => {
                       </Link>
                     </div>
                   </div>
+                </div>
 
-                  <div
-                    className="service__hover-3"
-                    style={{
-                      backgroundImage: "url(assets/imgs/service/3/4.png)",
-                    }}
-                  ></div>
+                <div className="service__item-3 service_animation">
+                  <h3 className="">
+                    <Link
+                      href="/service-emerging-tech"
+                      className="service__title-3"
+                    >
+                      Emerging
+                      <br />
+                      Technologies
+                    </Link>
+                  </h3>
+                  <div className="service__content-3">
+                    <p>
+                      Emerging technologies are technologies that are perceived
+                      as capable of changing the status quo. We help you to
+                      implement these technologies.
+                    </p>
+                    <ul className="">
+                      <li>+ Blockchain</li>
+                      <li>+ AI & ML</li>
+                      <li>+ IoT</li>
+                    </ul>
+                  </div>
+                  <div className="service__btn-3">
+                    <div className="btn_wrapper">
+                      <Link
+                        href="/service-emerging-tech"
+                        className="wc-btn-black btn-hover btn-item"
+                      >
+                        <span></span> Details
+                        <i className="fa-solid fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="service__item-3 service_animation">
+                  <h3 className="">
+                    <Link
+                      href="/service-consulting"
+                      className="service__title-3"
+                    >
+                      Consulting &
+                      <br />
+                      Project Management
+                    </Link>
+                  </h3>
+                  <div className="service__content-3">
+                    <p>
+                      Consulting and project management are the most important
+                      parts of a project. We help you to manage your project.
+                    </p>
+                    <ul className="">
+                      <li>+ Consulting</li>
+                      <li>+ Project Management</li>
+                    </ul>
+                  </div>
+                  <div className="service__btn-3">
+                    <div className="btn_wrapper">
+                      <Link
+                        href="/service-consulting"
+                        className="wc-btn-black btn-hover btn-item"
+                      >
+                        <span></span> Details
+                        <i className="fa-solid fa-arrow-right"></i>
+                      </Link>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="service3__img-wrap">

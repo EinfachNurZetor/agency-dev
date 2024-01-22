@@ -23,7 +23,7 @@ const ServiceDetailsFaq = () => {
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
               <div className="faq__content">
                 <h2 className="faq__title title-anim">
-                  Product making for friendly users
+                  Frequently Asked Questions
                 </h2>
 
                 <div className="faq__list">
@@ -37,14 +37,17 @@ const ServiceDetailsFaq = () => {
                         className="accordion-header"
                         id="headingOne"
                       >
-                        Design should enrich our day
+                        How do you approach a new project?
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                          First we need to understand your business and your
+                          goals. We will ask you a lot of questions about your
+                          business, your customers, and your competitors. We
+                          will also ask you about your goals for the project.
+                          Once we have a clear understanding of your business
+                          and your goals, we will create a strategy that will
+                          help you achieve those goals.
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -54,13 +57,13 @@ const ServiceDetailsFaq = () => {
                         className="accordion-header"
                         id="headingTwo"
                       >
-                        Bring their individual experience and creative
+                        What is your design philosophy?
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p>
-                          {
-                            "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables."
-                          }
+                          A good design is one that is functional, beautiful,
+                          and accessible. We create designs people love to see,
+                          remember and enjoy using.
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -70,14 +73,14 @@ const ServiceDetailsFaq = () => {
                         className="accordion-header"
                         id="headingThree"
                       >
-                        Human centred design to challenges
+                        How much does my project cost?
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                          The cost of your project will depend on the size and
+                          complexity of the project. We will provide you with a
+                          detailed estimate after we have a clear understanding
+                          of your project requirements.
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
@@ -87,31 +90,15 @@ const ServiceDetailsFaq = () => {
                         className="accordion-header"
                         id="headingFour"
                       >
-                        Design should enrich our day
+                        How long does it take to complete my project?
                       </Accordion.Header>
                       <Accordion.Body className="accordion-body">
                         <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
-                        </p>
-                      </Accordion.Body>
-                    </Accordion.Item>
-
-                    <Accordion.Item eventKey="4" className="accordion-item">
-                      <Accordion.Header
-                        className="accordion-header"
-                        id="headingFive"
-                      >
-                        Developing core web applications
-                      </Accordion.Header>
-                      <Accordion.Body className="accordion-body">
-                        <p>
-                          Our design services starts and ends with a
-                          best-in-class experience strategy that builds brands.
-                          Through a process of iteration and prototyping design
-                          interfaces that bring joy to people
+                          The time it takes to complete your project will depend
+                          on the size and complexity of the project. We are
+                          going to provide you with a detailed timeline after we
+                          have a clear understanding of your project
+                          requirements.
                         </p>
                       </Accordion.Body>
                     </Accordion.Item>
