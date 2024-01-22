@@ -7,6 +7,7 @@ import ModernAgencyAbout from "@/components/about/ModernAgencyAbout";
 import ModernAgencySingleImage from "@/components/singleImage/ModernAgencySingleImage";
 import ModernAgencyWork2 from "@/components/work/ModernAgencyWork2";
 import ModernAgencyBrand from "@/components/brand/ModernAgencyBrand";
+import NunosoftBrands from "@/components/brand/NunosoftBrands";
 
 const ModernAgency = () => {
   return (
@@ -21,10 +22,9 @@ const ModernAgency = () => {
           <ModernAgencyHero />
           <ModernAgencyPortfolio />
           <ModernAgencyWork />
+          <NunosoftBrands />
           <ModernAgencyAbout />
           <ModernAgencySingleImage />
-          <ModernAgencyWork2 />
-          <ModernAgencyBrand />
         </RootLayout>
       </main>
     </div>

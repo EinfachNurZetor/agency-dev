@@ -85,9 +85,10 @@ const ModernAgencyHero = () => {
       <div className="portfolio__big">
         <div
           className="portfolio__big-inner"
-          style={{ backgroundImage: "url(assets/imgs/portfolio/detail/1.jpg)" }}
         >
-          {" "}
+          <video width="100%" height="100%" loop autoPlay muted>
+            <source src="assets/imgs/main/hero.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </>
