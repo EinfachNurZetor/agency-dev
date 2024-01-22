@@ -158,8 +158,6 @@ const DigitalMarketingService = () => {
                       className="service__title-3"
                     >
                       E-Commerce
-                      <br />
-                      Development
                     </Link>
                   </h3>
                   <div className="service__content-3">
@@ -190,8 +188,7 @@ const DigitalMarketingService = () => {
                 <div className="service__item-3 service_animation">
                   <h3 className="">
                     <Link href="/service-devops" className="service__title-3">
-                      DevOps
-                      <br />
+                      DevOps <br />
                       Services
                     </Link>
                   </h3>
@@ -226,8 +223,7 @@ const DigitalMarketingService = () => {
                       href="/service-emerging-tech"
                       className="service__title-3"
                     >
-                      Emerging
-                      <br />
+                      Emerging <br />
                       Technologies
                     </Link>
                   </h3>

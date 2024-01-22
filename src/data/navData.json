@@ -30,24 +30,24 @@
       "type": "dropdown",
       "sub_nav": [
         {
-          "name": "Nunosoft Development",
-          "link": "/team"
+          "name": "Nunosoft Games",
+          "link": "https://games.nunosoft.net"
         },
         {
           "name": "Nunosoft Dreamcraft",
-          "link": "/team-details"
+          "link": "https://dream.nunosoft.net"
         },
         {
           "name": "Nunosoft Events",
-          "link": "/team-details"
+          "link": "https://events.nunosoft.net"
         },
         {
           "name": "Nunosoft Marketing",
-          "link": "/team-details"
+          "link": "https://marketing.nunosoft.net"
         },
         {
           "name": "Nunosoft Brands",
-          "link": "/team-details"
+          "link": "https://brands.nunosoft.net"
         }
       ]
     },
