@@ -66,7 +66,7 @@ const ModernAgencyPortfolio = () => {
   return (
     <>
       <div className="about__area-8 sp-x">
-        <h6 className="text-end about-sub-right">About company</h6>
+        <h6 className="text-end about-sub-right">About Nunosoft Development</h6>
         <div className="section_wrapper b-100">
           <h4 className="react_border">
             <span>02</span>
@@ -76,17 +76,7 @@ const ModernAgencyPortfolio = () => {
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
             <div className="about8">
               <h2 className="about8__title fade_bottom_2">
-                inspired <br /> with creativity <br /> <span>and </span>
-                <Link href="/about" className="hover_wrap" ref={hoverWrap}>
-                  SPACES
-                  <span
-                    className="hover_img"
-                    style={{
-                      backgroundImage:
-                        "url(assets/imgs/portfolio/detail/7.jpg)",
-                    }}
-                  ></span>
-                </Link>
+                
               </h2>
             </div>
           </div>

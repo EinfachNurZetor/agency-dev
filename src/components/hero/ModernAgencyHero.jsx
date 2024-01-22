@@ -52,7 +52,7 @@ const ModernAgencyHero = () => {
             className="sec-title-4 sec-title-5 animation__char_come"
             ref={charAnim}
           >
-            Design{" "}
+            Nunosoft{" "}
             <Image
               priority
               width={108}
@@ -62,7 +62,7 @@ const ModernAgencyHero = () => {
             />
           </h2>
           <h2 className="sec-title-4 animation__char_come" ref={charAnim2}>
-            Development <span>Craft</span>
+            Development <span>Studio</span>
           </h2>
           <div className="scroll-wrapper">
             <div className="scroll-down">
@@ -75,9 +75,7 @@ const ModernAgencyHero = () => {
               />
             </div>
             <p className="discription hero__text-animation" ref={heroTextAnim}>
-              Static and dynamic secure code review can prevent a 0day before
-              your product is even released. We can integrate with your dev
-              environment
+              Building websites and applications with modern technologies and a touch of creativity. We can bring your wild ideas to life.
             </p>
           </div>
         </div>

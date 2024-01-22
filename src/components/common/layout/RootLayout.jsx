@@ -10,9 +10,7 @@ import Header1 from "@/components/header/Header1";
 import Footer5 from "@/components/footer/Footer5";
 
 const HeaderContent = ({ header, navData }) => {
-  if (header == "header1") {
     return <Header1 navData={navData} />;
-  }
 };
 const FooterContent = ({ footer }) => {
   return <Footer5 />;
@@ -49,12 +47,6 @@ export default function RootLayout({
         </div>
         <Preloader />
         <CursorAnimation cursor1={cursor1} cursor2={cursor2} />
-        <Switcher
-          setMode={setMode}
-          mode={mode}
-          cursor1={cursor1}
-          cursor2={cursor2}
-        />
         <ScrollTop />
         <HeaderContent header={header} navData={navData} />
         <div id="smooth-wrapper">
