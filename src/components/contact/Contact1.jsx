@@ -1,5 +1,6 @@
 import animationCharCome from "@/lib/utils/animationCharCome";
 import animationWordCome from "@/lib/utils/animationWordCome";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 const Contact1 = () => {
@@ -26,7 +27,7 @@ const Contact1 = () => {
               <div className="contact__text">
                 <p>
                   {
-                    "Great! We're excited to hear from you and let's start something special togerter. call us for any inquery."
+                    "Great! We're excited to hear from you and let's start something special together. Call us for any inquery."
                   }
                 </p>
               </div>
@@ -39,20 +40,25 @@ const Contact1 = () => {
                   className="sub-title-anim-top animation__word_come"
                   ref={wordAnim}
                 >
-                  {"Don't be afraid man ! "}
+                  {"Don't be afraid ! "}
                   <br />
-                  say hello
+                  Say Hello
                 </h3>
                 <ul>
                   <li>
-                    <a href="tel:+(2)578365379">+(2) 578 - 365 - 379</a>
+                    <Link href="tel:+436609242214">+43 (660) 92 42 214</Link>
                   </li>
                   <li>
-                    <a href="mailto:hello@example.com">hello@example.com</a>
+                    <Link href="tel:+4917632420693">+49 (176) 32 42 06 93</Link>
+                  </li>
+                  <li>
+                    <a href="mailto:contact@nunosoft.net">
+                      contact@nunosoft.net
+                    </a>
                   </li>
                   <li>
                     <span>
-                      230 Norman Street New York, <br /> QC (USA) H8R 1A1
+                      Fischzug 1a, <br /> 10245 Berlin (Germany)
                     </span>
                   </li>
                 </ul>
@@ -94,7 +100,7 @@ const Contact1 = () => {
                       <div className="btn_wrapper">
                         <button className="wc-btn-primary btn-hover btn-item">
                           <span></span> Send <br />
-                          Messages <i className="fa-solid fa-arrow-right"></i>
+                          Message <i className="fa-solid fa-arrow-right"></i>
                         </button>
                       </div>
                     </div>
