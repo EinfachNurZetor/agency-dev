@@ -1,22 +1,20 @@
 import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
-import ServiceHero from "@/components/hero/ServiceHero";
-import Service1 from "@/components/service/Service1";
+import DigitalMarketingService from "@/components/service/DigitalMarketingService";
 import ServiceBrand from "@/components/brand/ServiceBrand";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
 
-const Service = () => {
+const ServiceV4 = () => {
   return (
     <>
       <Head>
-        <title>Service</title>
-        <meta name="description" content="Service Description" />
+        <title>Nunosoft Development - Services</title>
+        <meta name="description" content="Service V4 Description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         <RootLayout header="header3" footer="footer3">
-          <ServiceHero />
-          <Service1 />
+          <DigitalMarketingService />
           <ServiceBrand />
           <DigitalAgencyCTA />
         </RootLayout>
@@ -25,4 +23,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default ServiceV4;
