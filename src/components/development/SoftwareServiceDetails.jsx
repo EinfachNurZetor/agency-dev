@@ -26,10 +26,10 @@ const SoftwareServiceDetails = () => {
               <div className="development__wrapper">
                 <div className="development__content">
                   <p>
-                    Software development is the process of conceiving,
-                    specifying, designing, programming, documenting, testing,
-                    and bug fixing involved in creating and maintaining
-                    applications, frameworks, or other software components.
+                    Software development is the process of designing,
+                    programming and testing computer software. It includes bug
+                    fixing, planning, designing and maintaining applications in
+                    a software's life cycle.
                   </p>
                   <p>
                     It may include research, new development, prototyping, or a
