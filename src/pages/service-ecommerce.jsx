@@ -5,6 +5,7 @@ import ServiceDetailsWorkflow from "@/components/workflow/ServiceDetailsWorkflow
 import ServiceDetailsService from "@/components/service/ServiceDetailsService";
 import ServiceDetailsFaq from "@/components/faq/ServiceDetailsFaq";
 import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
+import ECommServiceDetails from "@/components/development/ECommerceServiceDetails";
 
 const ServiceDetails = () => {
   return (
@@ -16,7 +17,7 @@ const ServiceDetails = () => {
       </Head>
       <main>
         <RootLayout header="header3" footer="footer3">
-          <ServiceDetailsDevelopment />
+          <ECommServiceDetails />
           <ServiceDetailsWorkflow />
           <ServiceDetailsFaq />
           <DigitalAgencyCTA />
