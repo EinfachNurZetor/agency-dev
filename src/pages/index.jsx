@@ -13,7 +13,9 @@ const ModernAgency = () => {
   return (
     <div>
       <Head>
-        <title>Modern Agency</title>
+        <title>Nunosoft Development - 
+          Modern Agency. Creative Studio. Unique Design.
+        </title>
         <meta name="description" content="Modern Agency Description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
-import Brand1 from "../../../public/assets/imgs/brand/1.png";
-import Brand2 from "../../../public/assets/imgs/brand/2.png";
-import Brand3 from "../../../public/assets/imgs/brand/3.png";
-import Brand4 from "../../../public/assets/imgs/brand/4.png";
-import Brand5 from "../../../public/assets/imgs/brand/5.png";
-import Brand6 from "../../../public/assets/imgs/brand/6.png";
+import NunosoftDevelopment from "../../../public/assets/imgs/logo/dark/nunosoft-development.svg";
+import NunosoftGames from "../../../public/assets/imgs/logo/dark/nunosoft-games.svg";
+import NunosoftDreamcraft from "../../../public/assets/imgs/logo/dark/nunosoft-dreamcraft.svg";
+import NunosoftMarketing from "../../../public/assets/imgs/logo/dark/nunosoft-marketing.svg";
+import NunosoftEvents from "../../../public/assets/imgs/logo/dark/nunosoft-events.svg";
+import NunosoftBrands from "../../../public/assets/imgs/logo/dark/nunosoft-brands.svg";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -62,10 +62,9 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Internation Brands</h2>
+                <h2 className="sec-sub-title title-anim">Nunosoft Network</h2>
                 <h3 className="sec-title title-anim">
-                  We are happy to work with global <br />
-                  largest brands
+                  We are happy to be a part of the Nunosoft Network to deliver products with the highest possible quality.
                 </h3>
               </div>
             </div>
@@ -75,108 +74,48 @@ const DigitalAgencyBrand = () => {
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={97}
-                    height={67}
-                    src={Brand1}
+                    width={150}
+                    src={NunosoftGames}
                     alt="Brand Logo"
                   />
                 </div>
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={85}
-                    height={67}
-                    src={Brand2}
+                    width={150}
+                    src={NunosoftDevelopment}
                     alt="Brand Logo"
                   />
                 </div>
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={114}
-                    height={64}
-                    src={Brand3}
+                    width={150}
+                    src={NunosoftDreamcraft}
                     alt="Brand Logo"
                   />
                 </div>
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={82}
-                    height={70}
-                    src={Brand4}
+                    width={150}
+                    src={NunosoftMarketing}
                     alt="Brand Logo"
                   />
                 </div>
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={115}
-                    height={67}
-                    src={Brand5}
+                    width={150}
+                    src={NunosoftEvents}
                     alt="Brand Logo"
                   />
                 </div>
                 <div className="brand__item fade_bottom">
                   <Image
                     priority
-                    width={121}
-                    height={63}
-                    src={Brand6}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={114}
-                    height={64}
-                    src={Brand3}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={82}
-                    height={70}
-                    src={Brand4}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={115}
-                    height={67}
-                    src={Brand5}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={121}
-                    height={63}
-                    src={Brand6}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={97}
-                    height={67}
-                    src={Brand1}
-                    alt="Brand Logo"
-                  />
-                </div>
-                <div className="brand__item fade_bottom">
-                  <Image
-                    priority
-                    width={85}
-                    height={67}
-                    src={Brand2}
+                    width={150}
+                    src={NunosoftBrands}
                     alt="Brand Logo"
                   />
                 </div>
