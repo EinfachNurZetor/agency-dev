@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link.js";
 import Award from "../../../public/assets/imgs/about/award.png";
+import Office from "../../../public/assets/imgs/team/office1.png";
 import Image from "next/image.js";
 import animationWordCome from "@/lib/utils/animationWordCome";
 
@@ -47,9 +48,12 @@ const AboutHero = () => {
           <div className="row hero__about-row">
             <div className="col-xxl-12">
               <div className="hero__about-video">
-                <video loop muted autoPlay playsInline>
-                  <source src="assets/video/video.mp4" type="video/mp4" />
-                </video>
+                <Image
+                  priority
+
+                  src={Office}
+                  alt=""
+                />
               </div>
             </div>
           </div>

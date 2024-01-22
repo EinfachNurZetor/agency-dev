@@ -84,7 +84,7 @@ const ModernAgencyHero = () => {
         <div
           className="portfolio__big-inner"
         >
-          <video width="100%" height="100%" loop autoPlay muted>
+          <video width="100%" height="100%" loop autoPlay muted playsInline>
             <source src="assets/imgs/main/hero.mp4" type="video/mp4" />
           </video>
         </div>

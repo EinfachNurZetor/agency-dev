@@ -12,9 +12,9 @@ const About = () => {
   return (
     <div>
       <Head>
-        <title>Nunosoft Games - About us
+        <title>Nunosoft Development - About us
         </title>
-        <meta name="description" content="Nunosoft Games - About us" />
+        <meta name="description" content="Nunosoft Development - About us" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>

@@ -30,7 +30,7 @@ const AboutStory = () => {
                     When looking on the software development industry, we saw
                     that most of the software was beeing made by companies that
                     worked a lot with outsourcing and that can be noticed in the
-                    quality of the product. With our network wer have the
+                    quality of the product. With our network we have the
                     ability to create a product that is made with passion and
                     love.
                   </p>

@@ -75,7 +75,7 @@ const AboutTeam = () => {
             spaceBetween={30}
             slidesPerView={1}
             freeMode={true}
-            loop={true}
+            loop={false}
             speed={2000}
             breakpoints={{
               640: {
