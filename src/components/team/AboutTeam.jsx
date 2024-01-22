@@ -1,10 +1,11 @@
 import { FreeMode } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
-import Team1 from "../../../public/assets/imgs/team/1.jpg";
-import Team2 from "../../../public/assets/imgs/team/2.jpg";
-import Team3 from "../../../public/assets/imgs/team/3.jpg";
-import Team4 from "../../../public/assets/imgs/team/4.jpg";
+import Sandro from "../../../public/assets/imgs/team/nunosoft/sandro.png";
+import Wolfgang from "../../../public/assets/imgs/team/nunosoft/wolfgang.png";
+import Daniel from "../../../public/assets/imgs/team/nunosoft/daniel.png";
+import Mirko from "../../../public/assets/imgs/team/nunosoft/mirko.png";
+import None from "../../../public/assets/imgs/team/nunosoft/none.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -65,7 +66,9 @@ const AboutTeam = () => {
       <section className="team__area pt-140 pb-140">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title title-anim">Our Team</h2>
-          <h3 className="sec-title title-anim">How we work</h3>
+          <h3 className="sec-title title-anim">
+            Behind the code
+          </h3>
         </div>
 
         <div className="team__slider">
@@ -94,11 +97,11 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team1}
+                    src={Sandro}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
+                    <h4 className="team__member-name">Sandro Löb</h4>
                     <h5 className="team__member-role">Founder & CEO</h5>
                   </div>
                 </Link>
@@ -111,12 +114,12 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team2}
+                    src={Wolfgang}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Researcher</h5>
+                    <h4 className="team__member-name">Wolfgang Preinfalk</h4>
+                    <h5 className="team__member-role">Founder & COO</h5>
                   </div>
                 </Link>
               </div>
@@ -128,12 +131,12 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team3}
+                    src={Mirko}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Daniyel Adamson</h4>
-                    <h5 className="team__member-role">Digital Marketer</h5>
+                    <h4 className="team__member-name">Mirko Jahn</h4>
+                    <h5 className="team__member-role">Senior Finance Manager & Business Advisor</h5>
                   </div>
                 </Link>
               </div>
@@ -145,12 +148,12 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team4}
+                    src={None}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Hardiya Kethrine</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Ermin Bihorac</h4>
+                    <h5 className="team__member-role">Project Manager</h5>
                   </div>
                 </Link>
               </div>
@@ -162,12 +165,12 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team2}
+                    src={Daniel}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
-                    <h5 className="team__member-role">Researcher</h5>
+                    <h4 className="team__member-name">Daniel Rockenschaub</h4>
+                    <h5 className="team__member-role">Project Manager</h5>
                   </div>
                 </Link>
               </div>
@@ -179,12 +182,12 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team3}
+                    src={None}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Johannes Göbel</h4>
+                    <h5 className="team__member-role">Developer</h5>
                   </div>
                 </Link>
               </div>
@@ -196,97 +199,12 @@ const AboutTeam = () => {
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
-                    src={Team1}
+                    src={None}
                     alt="Team Member"
                   />
                   <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
-                    <h5 className="team__member-role">Founder & CEO</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Team2}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Researcher</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Team3}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Daniyel Adamson</h4>
-                    <h5 className="team__member-role">Digital Marketer</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Team4}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Hardiya Kethrine</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Team2}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Saymon D. Halk</h4>
-                    <h5 className="team__member-role">Researcher</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Team3}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Jassica Oliver</h4>
-                    <h5 className="team__member-role">Lead Designer</h5>
+                    <h4 className="team__member-name">Fabian Becker</h4>
+                    <h5 className="team__member-role">Developer</h5>
                   </div>
                 </Link>
               </div>

@@ -76,7 +76,12 @@ const ModernAgencyPortfolio = () => {
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
             <div className="about8">
               <h2 className="about8__title fade_bottom_2">
-                
+              Set step into the <br />
+                <Link href="/about" className="hover_wrap">
+                digital world
+                </Link>
+                <br />
+                with Nunosoft
               </h2>
             </div>
           </div>
@@ -84,15 +89,7 @@ const ModernAgencyPortfolio = () => {
             <div className="about8__content fade_bottom_2">
               <p>
                 {" "}
-                We’re a design and technology partner for digital age. We help
-                businesses into innovation and remain highly relevant to their
-                customers by developing cutting edge digital products and
-                executing smart and valuable service by Axtra template on
-                themeforest at the begining stage. Our exceptional digital
-                products, offers, services and brand communication solution from
-                idea to a product creating successful digital services for
-                innovative startups and established businesses with trendy UX/UI
-                design front and back-end development.
+                We are a team of developers and designers wo are passionate about creating beautiful website, app and software solutions for our clients. Also we like pushing the boundaries of what is possible with technology. Nunosoft Development is not the ordanary development company, we are here to revolutionize the digital world and make a impact on the world.
               </p>
               <Link href="/about" className="blog__btn about_btn">
                 Read More{" "}

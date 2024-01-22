@@ -18,8 +18,7 @@ const AboutHero = () => {
             <div className="col-xxl-12">
               <div className="hero__about-content">
                 <h1 className="hero-title animation__word_come" ref={wordAnim}>
-                  We’re a full service creative and digital agency, working
-                  globally with leargest brands.
+                  We are building stunning solutions for brands and businesses all over the globe.
                 </h1>
                 <div className="hero__about-info">
                   <div className="hero__about-btn">
@@ -37,18 +36,9 @@ const AboutHero = () => {
                   <div className="hero__about-text title-anim">
                     <p>
                       {
-                        "Think of the world's most iconica and successful brands easily findable, impactful. Interactional and exceptional designs. Our story takes beginning in 2013"
+                        "We started as a small game Studio in 2019 and now we are on our journey to connect brands and businesses with their customers through the best digital experiences."
                       }
                     </p>
-                  </div>
-                  <div className="hero__about-award">
-                    <Image
-                      priority
-                      width={126}
-                      height={82}
-                      src={Award}
-                      alt="Best Studio Award"
-                    />
                   </div>
                 </div>
               </div>

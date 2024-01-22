@@ -6,94 +6,21 @@ import Shape24 from "../../../public/assets/imgs/shape/24.png";
 import Image from "next/image";
 
 const ModernAgencySingleImage = () => {
-  const hoverImage = useRef();
-  const hoverImage2 = useRef();
-  const hoverWrap = useRef();
+  
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const hover_8_wrap = hoverWrap.current.children;
-      const h8_wrap_len = hover_8_wrap.length;
-
-      if (h8_wrap_len == 1) {
-        function showCase8Func(event, hover_8_wrap) {
-          const contentBox = hover_8_wrap[0].getBoundingClientRect();
-          const dx = event.pageX;
-          const dy = event.clientY - contentBox.y;
-          hoverImage.current.style.transform = `translate(${dx}px, ${dy}px)`;
-        }
-        hover_8_wrap[0].addEventListener("mousemove", (event) => {
-          setInterval(showCase8Func(event, hover_8_wrap), 1000);
-          hoverImage.current.classList.add("active");
-        });
-        hover_8_wrap[0].addEventListener("mouseout", (event) => {
-          hoverImage.current.classList.remove("active");
-        });
-      }
-
-      if (h8_wrap_len == 2) {
-        function showCase8Func(event, hover_8_wrap) {
-          const contentBox = hover_8_wrap[0].getBoundingClientRect();
-          const dx = event.pageX;
-          const dy = event.clientY - contentBox.y;
-          hoverImage.current.style.transform = `translate(${dx}px, ${dy}px)`;
-        }
-        hover_8_wrap[0].addEventListener("mousemove", (event) => {
-          setInterval(showCase8Func(event, hover_8_wrap), 1000);
-          hoverImage.current.classList.add("active");
-        });
-        hover_8_wrap[0].addEventListener("mouseout", (event) => {
-          hoverImage.current.classList.remove("active");
-        });
-
-        function showCase8Func2(event, hover_8_wrap) {
-          const contentBox = hover_8_wrap[1].getBoundingClientRect();
-          const dx = event.pageX;
-          const dy = event.clientY - contentBox.y;
-          hoverImage2.current.style.transform = `translate(${dx}px, ${dy}px)`;
-        }
-        hover_8_wrap[1].addEventListener("mousemove", (event) => {
-          setInterval(showCase8Func2(event, hover_8_wrap), 1000);
-          hoverImage2.current.classList.add("active");
-        });
-        hover_8_wrap[1].addEventListener("mouseout", (event) => {
-          hoverImage2.current.classList.remove("active");
-        });
-      }
-    }
-  }, []);
   return (
     <>
       <div className="single__image-8 pt-130 pb-200 text-center sp-x">
         <div className="col-lg-10 text-center m-auto">
           <div className="singlecontent">
             <div className="hover_8_wrap">
-              <h2 className="tech_title fade_bottom_4" ref={hoverWrap}>
-                DESIGN AND <Link href="/portfolio">Technology</Link> STUDIO
-                TRANSFORMING YOUR <Link href="/portfolio">IDEAS</Link>
-                INTO REALITY
+            <h2 className="tech_title fade_bottom_4">
+                WE BUILD WEBSITE, APP AND SOFTWARE SOLUTIONS THAT MAKE A DIFFERENCE <br/>
+                <Link href="/">Imagination Brought To Life.</Link>
               </h2>
-              <div
-                className="hover_8_img"
-                style={{
-                  backgroundImage: "url(assets/imgs/portfolio/detail/7.jpg)",
-                }}
-                ref={hoverImage}
-              ></div>
-              <div
-                className="hover_8_img_2"
-                style={{
-                  backgroundImage: "url(assets/imgs/portfolio/detail/6.jpg)",
-                }}
-                ref={hoverImage2}
-              ></div>
             </div>
             <p className="single_dis pb-110 fade_bottom_4">
-              Creating a successful digital services for innovative start-up and{" "}
-              <br />
-              established businesses with trendy design front and back-end{" "}
-              <br /> development.
-            </p>
+            Creating a website involves more than just aesthetic appeal. It's about developing a site that is easy to navigate, loads quickly, and is optimized for search engines. Similarly, with software, our aim is not only to ensure it functions correctly, but also to make it user-friendly and visually appealing.            </p>
             <div className="single__thumb">
               <video loop muted autoPlay playsInline>
                 <source src="assets/video/video.mp4" type="video/mp4" />
