@@ -108,8 +108,7 @@ const ModernAgencyWork = () => {
         <div className="work8__title fade_bottom_3">
           <p>
             {" "}
-            Static and dynamic secure code can prevent a 0day before your
-            product is even released. We can integrate with your dev environment
+            Some of our <span>selected</span> works we made with love in the recent years. We cant wait to make your project a reality.
           </p>
         </div>
 
