@@ -138,7 +138,7 @@ const ModernAgencyWork = () => {
                 </div>
                 <div className="work8__content tilt">
                   <h4 className="work8__content__title">
-                    Nunosoft Agency <span>CONCEPT & DESIGN & DEVELOP</span>
+                    Nunosoft Agency <span>FULL-SERVICE</span>
                   </h4>
                   <p>
                     Nunosoft Network <br />- 2023
@@ -172,7 +172,7 @@ const ModernAgencyWork = () => {
                 </div>
                 <div className="work8__content tilt">
                   <h4 className="work8__content__title">
-                    API-Lib Homepage <span>CONCEPT & DESIGN & DEVELOP</span>
+                    API-Lib Homepage <span>FULL-SERVICE</span>
                   </h4>
                   <p>
                     API-Lib <br />- 2023
