@@ -122,16 +122,26 @@ const ModernAgencyWork = () => {
                 data-speed="1"
               >
                 <div className="work8__thumb">
-                <video width="100%" height="100%" loop autoPlay muted playsInline>
-            <source src="assets/imgs/portfolio/agency-vid2.mp4" type="video/mp4" />
-          </video>
+                  <video
+                    width="100%"
+                    height="100%"
+                    loop
+                    autoPlay
+                    muted
+                    playsInline
+                  >
+                    <source
+                      src="assets/imgs/portfolio/agency-vid2.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="work8__content tilt">
                   <h4 className="work8__content__title">
-                    Dhoner <span>Artery</span>
+                    Nunosoft Agency <span>CONCEPT & DESIGN & DEVELOP</span>
                   </h4>
                   <p>
-                    Natre, New York <br />- 2019
+                    Nunosoft Network <br />- 2023
                   </p>
                 </div>
               </Link>
@@ -146,22 +156,31 @@ const ModernAgencyWork = () => {
                 data-speed="1.2"
               >
                 <div className="work8__thumb">
-                <video width="100%" height="100%" loop autoPlay muted playsInline>
-            <source src="assets/imgs/portfolio/apilib-vid.mp4" type="video/mp4" />
-          </video>
+                  <video
+                    width="100%"
+                    height="100%"
+                    loop
+                    autoPlay
+                    muted
+                    playsInline
+                  >
+                    <source
+                      src="assets/imgs/portfolio/apilib-vid.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
                 </div>
                 <div className="work8__content tilt">
                   <h4 className="work8__content__title">
-                    Design <span>CONCEPT</span>
+                    API-Lib Homepage <span>CONCEPT & DESIGN & DEVELOP</span>
                   </h4>
                   <p>
-                    Natre, New York <br />- 2019
+                    API-Lib <br />- 2023
                   </p>
                 </div>
               </Link>
             </Tilt>
           </div>
-        
         </div>
 
         <div className="row">
