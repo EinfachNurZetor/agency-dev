@@ -19,12 +19,6 @@
       "sub_nav": []
     },
     {
-      "nav_name": "Portfolio",
-      "link": "/portfolio",
-      "type": "",
-      "sub_nav": []
-    },
-    {
       "nav_name": "Nunosoft",
       "link": "https://nunosoft.net",
       "type": "dropdown",
