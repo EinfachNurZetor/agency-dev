@@ -122,13 +122,9 @@ const ModernAgencyWork = () => {
                 data-speed="1"
               >
                 <div className="work8__thumb">
-                  <Image
-                    priority
-                    width={655}
-                    style={{ height: "auto" }}
-                    src={work1}
-                    alt="image"
-                  />
+                <video width="100%" height="100%" loop autoPlay muted playsInline>
+            <source src="assets/imgs/portfolio/agency-vid2.mp4" type="video/mp4" />
+          </video>
                 </div>
                 <div className="work8__content tilt">
                   <h4 className="work8__content__title">
@@ -150,13 +146,9 @@ const ModernAgencyWork = () => {
                 data-speed="1.2"
               >
                 <div className="work8__thumb">
-                  <Image
-                    priority
-                    width={655}
-                    style={{ height: "auto" }}
-                    src={work2}
-                    alt=""
-                  />
+                <video width="100%" height="100%" loop autoPlay muted playsInline>
+            <source src="assets/imgs/portfolio/apilib-vid.mp4" type="video/mp4" />
+          </video>
                 </div>
                 <div className="work8__content tilt">
                   <h4 className="work8__content__title">
@@ -169,115 +161,7 @@ const ModernAgencyWork = () => {
               </Link>
             </Tilt>
           </div>
-          <div className="work8 fade_bottom_3">
-            <Tilt className="work8__inner">
-              <Link
-                href="/portfolio-details"
-                className="wc-tilt"
-                data-speed="1.3"
-              >
-                <div className="work8__thumb">
-                  <Image
-                    priority
-                    width={330}
-                    style={{ height: "auto" }}
-                    src={work4}
-                    alt=""
-                  />
-                </div>
-                <div className="work8__content tilt">
-                  <h4 className="work8__content__title">
-                    Vector <span>Art</span>
-                  </h4>
-                  <p>
-                    Natre, New York <br />- 2019
-                  </p>
-                </div>
-              </Link>
-            </Tilt>
-          </div>
-
-          <div className="work8 fade_bottom_3">
-            <Tilt className="work8__inner">
-              <Link
-                href="/portfolio-details"
-                className="wc-tilt"
-                data-speed="1.2"
-              >
-                <div className="work8__thumb">
-                  <Image
-                    priority
-                    width={440}
-                    style={{ height: "auto" }}
-                    src={work3}
-                    alt=""
-                  />
-                </div>
-                <div className="work8__content tilt">
-                  <h4 className="work8__content__title">
-                    blue <span>Shadow</span>
-                  </h4>
-                  <p>
-                    Natre, New York <br />- 2019
-                  </p>
-                </div>
-              </Link>
-            </Tilt>
-          </div>
-          <div className="work8 fade_bottom_3">
-            <Tilt className="work8__inner">
-              <Link
-                href="/portfolio-details"
-                className="wc-tilt"
-                data-speed="1.2"
-              >
-                <div className="work8__thumb">
-                  <Image
-                    priority
-                    width={655}
-                    style={{ height: "auto" }}
-                    src={work6}
-                    alt=""
-                  />
-                </div>
-                <div className="work8__content tilt">
-                  <h4 className="work8__content__title">
-                    Fresh <span>Edge</span>
-                  </h4>
-                  <p>
-                    Natre, New York <br />- 2019
-                  </p>
-                </div>
-              </Link>
-            </Tilt>
-          </div>
-          <div className="work8 fade_bottom_3">
-            <Tilt className="work8__inner">
-              <Link
-                href="/portfolio-details"
-                className="wc-tilt"
-                data-speed="1"
-              >
-                <div className="work8__thumb">
-                  <Image
-                    priority
-                    width={655}
-                    style={{ height: "auto" }}
-                    src={work5}
-                    alt=""
-                  />
-                </div>
-                <div className="work8__content tilt">
-                  <h4 className="work8__content__title">
-                    Dhoner <span>Artery</span>
-                  </h4>
-                  <p>
-                    Natre, New York <br />- 2019
-                  </p>
-                </div>
-              </Link>
-            </Tilt>
-          </div>
+        
         </div>
 
         <div className="row">
