@@ -129,11 +129,6 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"/portfolio"}>PORTFOLIO</Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="header_title">
                       <Link href={"/blog"}>NUNOSOFT</Link>
                       <div className="accordian-btn">
                         {accordion === 5 ? (
