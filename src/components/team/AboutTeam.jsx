@@ -1,17 +1,31 @@
 import { FreeMode } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
+import "swiper/css";
+import "swiper/css/free-mode";
+import Link from "next/link";
+import Image from "next/image";
+
+// Import images
 import Sandro from "../../../public/assets/imgs/team/nunosoft/sandro.png";
 import Wolfgang from "../../../public/assets/imgs/team/nunosoft/wolfgang.png";
 import Daniel from "../../../public/assets/imgs/team/nunosoft/daniel.png";
 import Mirko from "../../../public/assets/imgs/team/nunosoft/mirko.png";
 import None from "../../../public/assets/imgs/team/nunosoft/none.png";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import Link from "next/link";
-import Image from "next/image";
+// Team members data
+const teamMembers = [
+  { name: "Sandro Löb", role: "CEO & Lead Nunosoft Games", src: Sandro },
+  { name: "Wolfgang Preinfalk", role: "COO & Lead Nunosoft Development", src: Wolfgang },
+  { name: "Mirko Jahn", role: "Senior Finance Manager & Business Advisor", src: Mirko },
+  { name: "Alexander Schmid", role: "Project Manager", src: None },
+  { name: "Daniel Rockenschaub", role: "Project Manager", src: Daniel },
+  { name: "Ermin Bihorac", role: "Project Manager", src: None },
+  { name: "Johannes Göbel", role: "Lead Nunosoft Marketing", src: None },
+  { name: "Fabian Becker", role: "Lead Nunosoft Dreamcraft", src: None },
+  { name: "Michael Fischer", role: "Lead Nunosoft Events", src: None },
+  { name: "Sarah Bauer", role: "Lead Nunosoft Brands", src: None }
+];
 
 const AboutTeam = () => {
   if (typeof window !== "undefined") {
@@ -61,12 +75,13 @@ const AboutTeam = () => {
       console.log(error);
     }
   }
+
   return (
     <>
       <section className="team__area pt-140 pb-140">
         <div className="sec-title-wrapper">
           <h2 className="sec-sub-title title-anim">Our Team</h2>
-          <h3 className="sec-title title-anim">Behind the code</h3>
+          <h3 className="sec-title title-anim">Behind the games</h3>
         </div>
 
         <div className="team__slider">
@@ -78,138 +93,27 @@ const AboutTeam = () => {
             loop={false}
             speed={2000}
             breakpoints={{
-              640: {
-                slidesPerView: 2,
-              },
-              1000: {
-                slidesPerView: 3,
-              },
-              1200: {
-                slidesPerView: 4,
-              },
+              640: { slidesPerView: 2 },
+              1000: { slidesPerView: 3 },
+              1200: { slidesPerView: 4 },
             }}
-            style={{ userSelect: "none" }}
           >
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Sandro}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Sandro Löb</h4>
-                    <h5 className="team__member-role">Founder & CEO</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Wolfgang}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Wolfgang Preinfalk</h4>
-                    <h5 className="team__member-role">Founder & COO</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Mirko}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Mirko Jahn</h4>
-                    <h5 className="team__member-role">
-                      Senior Finance Manager & Business Advisor
-                    </h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={None}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Ermin Bihorac</h4>
-                    <h5 className="team__member-role">Project Manager</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={Daniel}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Daniel Rockenschaub</h4>
-                    <h5 className="team__member-role">Project Manager</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={None}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Johannes Göbel</h4>
-                    <h5 className="team__member-role">Developer</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="team__slide">
-                <Link href="/team-details">
-                  <Image
-                    priority
-                    style={{ width: "100%", height: "auto" }}
-                    src={None}
-                    alt="Team Member"
-                  />
-                  <div className="team__info">
-                    <h4 className="team__member-name">Fabian Becker</h4>
-                    <h5 className="team__member-role">Developer</h5>
-                  </div>
-                </Link>
-              </div>
-            </SwiperSlide>
+            {teamMembers.map((member, index) => (
+              <SwiperSlide key={index}>
+                <div className="team__slide">
+                    <Image
+                      priority
+                      style={{ width: "100%", height: "auto" }}
+                      src={member.src}
+                      alt="Team Member"
+                    />
+                    <div className="team__info">
+                      <h4 className="team__member-name">{member.name}</h4>
+                      <h5 className="team__member-role">{member.role}</h5>
+                    </div>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </section>
