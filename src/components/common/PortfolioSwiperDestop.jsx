@@ -44,17 +44,17 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
     let rootParent = menuAnim.current.children;
     for (let i = 0; i < rootParent.length; i++) {
       let firstParent = rootParent[i].children;
-      let arr = firstParent[0].textContent.split("")
-      let spanData = ''
+      let arr = firstParent[0].textContent.split("");
+      let spanData = "";
       for (let j = 0; j < arr.length; j++) {
-        if(arr[j] == ' ') {
+        if (arr[j] == " ") {
           spanData += `<span style='width:6px;'>${arr[j]}</span>`;
         } else {
           spanData += `<span>${arr[j]}</span>`;
         }
       }
-      let result = '<div class="menu-text">' + spanData + '</div>';
-      firstParent[0].innerHTML = result
+      let result = '<div class="menu-text">' + spanData + "</div>";
+      firstParent[0].innerHTML = result;
     }
   };
 
@@ -232,7 +232,7 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     width={520}
@@ -247,7 +247,7 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     width={520}
@@ -262,7 +262,7 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     width={520}
@@ -277,7 +277,7 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     width={520}

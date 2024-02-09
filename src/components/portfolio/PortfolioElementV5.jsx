@@ -76,7 +76,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/">
                             <Image
                               priority
                               width={520}
@@ -91,7 +91,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/">
                             <Image
                               priority
                               width={520}
@@ -106,7 +106,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/">
                             <Image
                               priority
                               width={520}
@@ -121,7 +121,7 @@ const PortfolioElementV5 = () => {
                     <SwiperSlide>
                       <div className="pp-slide">
                         <div className="pp-slide-img">
-                          <Link href="/portfolio-details">
+                          <Link href="/">
                             <Image
                               priority
                               width={520}

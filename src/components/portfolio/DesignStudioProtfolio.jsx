@@ -64,7 +64,7 @@ const DesignStudioProtfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__slide-2">
                   <div className="slide-img">
-                    <Link href="/portfolio-details">
+                    <Link href="/">
                       <Image
                         priority
                         style={{ width: "100%", height: "auto" }}
@@ -76,7 +76,7 @@ const DesignStudioProtfolio = () => {
                   <div className="slide-content">
                     <h2 className="sec-title">
                       {" "}
-                      <Link href="/portfolio-details">
+                      <Link href="/">
                         Lionpro <span>Agency</span>
                       </Link>
                     </h2>
@@ -85,7 +85,7 @@ const DesignStudioProtfolio = () => {
                       marketeers. We produce best projects that both ourselves
                     </p>
                     <div className="btn-common-wrap">
-                      <Link href="/portfolio-details" className="btn-common">
+                      <Link href="/" className="btn-common">
                         View details <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -96,7 +96,7 @@ const DesignStudioProtfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__slide-2">
                   <div className="slide-img">
-                    <Link href="/portfolio-details">
+                    <Link href="/">
                       <Image
                         priority
                         style={{ width: "100%", height: "auto" }}
@@ -107,7 +107,7 @@ const DesignStudioProtfolio = () => {
                   </div>
                   <div className="slide-content">
                     <h2 className="sec-title">
-                      <Link href="/portfolio-details">
+                      <Link href="/">
                         crodyflw <span>Website</span>
                       </Link>
                     </h2>
@@ -116,7 +116,7 @@ const DesignStudioProtfolio = () => {
                       marketeers. We produce best projects that both ourselves
                     </p>
                     <div className="btn-common-wrap">
-                      <Link href="/portfolio-details" className="btn-common">
+                      <Link href="/" className="btn-common">
                         View details <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -127,7 +127,7 @@ const DesignStudioProtfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__slide-2">
                   <div className="slide-img">
-                    <Link href="/portfolio-details">
+                    <Link href="/">
                       <Image
                         priority
                         style={{ width: "100%", height: "auto" }}
@@ -139,7 +139,7 @@ const DesignStudioProtfolio = () => {
                   <div className="slide-content">
                     <h2 className="sec-title">
                       {" "}
-                      <Link href="/portfolio-details">
+                      <Link href="/">
                         developers
                         <span>digital</span>
                       </Link>
@@ -149,7 +149,7 @@ const DesignStudioProtfolio = () => {
                       marketeers. We produce best projects that both ourselves
                     </p>
                     <div className="btn-common-wrap">
-                      <Link href="/portfolio-details" className="btn-common">
+                      <Link href="/" className="btn-common">
                         View details <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -160,7 +160,7 @@ const DesignStudioProtfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__slide-2">
                   <div className="slide-img">
-                    <Link href="/portfolio-details">
+                    <Link href="/">
                       <Image
                         priority
                         style={{ width: "100%", height: "auto" }}
@@ -172,7 +172,7 @@ const DesignStudioProtfolio = () => {
                   <div className="slide-content">
                     <h2 className="sec-title">
                       {" "}
-                      <Link href="/portfolio-details">
+                      <Link href="/">
                         Lionpro
                         <span>marketeers</span>
                       </Link>
@@ -182,7 +182,7 @@ const DesignStudioProtfolio = () => {
                       marketeers. We produce best projects that both ourselves
                     </p>
                     <div className="btn-common-wrap">
-                      <Link href="/portfolio-details" className="btn-common">
+                      <Link href="/" className="btn-common">
                         View details <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
@@ -193,7 +193,7 @@ const DesignStudioProtfolio = () => {
               <SwiperSlide>
                 <div className="portfolio__slide-2">
                   <div className="slide-img">
-                    <Link href="/portfolio-details">
+                    <Link href="/">
                       <Image
                         priority
                         style={{ width: "100%", height: "auto" }}
@@ -205,7 +205,7 @@ const DesignStudioProtfolio = () => {
                   <div className="slide-content">
                     <h2 className="sec-title">
                       {" "}
-                      <Link href="/portfolio-details">
+                      <Link href="/">
                         Lionpro <span>Agency</span>
                       </Link>
                     </h2>
@@ -214,7 +214,7 @@ const DesignStudioProtfolio = () => {
                       marketeers. We produce best projects that both ourselves
                     </p>
                     <div className="btn-common-wrap">
-                      <Link href="/portfolio-details" className="btn-common">
+                      <Link href="/" className="btn-common">
                         View details <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>

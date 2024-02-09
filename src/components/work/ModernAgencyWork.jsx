@@ -108,18 +108,15 @@ const ModernAgencyWork = () => {
         <div className="work8__title fade_bottom_3">
           <p>
             {" "}
-            Some of our <span>selected</span> works we made with love in the recent years. We cant wait to make your project a reality.
+            Some of our <span>selected</span> works we made with love in the
+            recent years. We cant wait to make your project a reality.
           </p>
         </div>
 
         <div className="workitems sp-x">
           <div className="work8 fade_bottom_3">
             <Tilt className="work8__inner">
-              <Link
-                href="/portfolio-details"
-                className="wc-tilt"
-                data-speed="1"
-              >
+              <Link href="/" className="wc-tilt" data-speed="1">
                 <div className="work8__thumb">
                   <video
                     width="100%"
@@ -149,11 +146,7 @@ const ModernAgencyWork = () => {
 
           <div className="work8 fade_bottom_3">
             <Tilt className="work8__inner">
-              <Link
-                href="/portfolio-details"
-                className="wc-tilt"
-                data-speed="1.2"
-              >
+              <Link href="/" className="wc-tilt" data-speed="1.2">
                 <div className="work8__thumb">
                   <video
                     width="100%"

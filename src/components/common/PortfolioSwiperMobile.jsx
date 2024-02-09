@@ -184,7 +184,7 @@ const PortfolioSwiperMobile = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     style={{ width: "auto", height: "auto" }}
@@ -198,7 +198,7 @@ const PortfolioSwiperMobile = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     style={{ width: "auto", height: "auto" }}
@@ -212,7 +212,7 @@ const PortfolioSwiperMobile = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     style={{ width: "auto", height: "auto" }}
@@ -226,7 +226,7 @@ const PortfolioSwiperMobile = ({ portfolioSection, portfolioHeroImg }) => {
                           <SwiperSlide>
                             <div className="pp-slide">
                               <div className="pp-slide-img">
-                                <Link href="/portfolio-details">
+                                <Link href="/">
                                   <Image
                                     priority
                                     style={{ width: "auto", height: "auto" }}

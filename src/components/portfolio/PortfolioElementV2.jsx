@@ -95,7 +95,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -109,7 +109,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -123,7 +123,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -137,7 +137,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}
@@ -151,7 +151,7 @@ const PortfolioElementV2 = () => {
                 </div>
               </div>
               <div className="portfolio__item">
-                <Link href="/portfolio-details">
+                <Link href="/">
                   <Image
                     priority
                     style={{ width: "100%", height: "auto" }}

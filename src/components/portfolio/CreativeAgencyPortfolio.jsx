@@ -53,7 +53,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -63,7 +63,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -76,7 +76,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -86,7 +86,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -99,7 +99,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -109,7 +109,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -122,7 +122,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -132,7 +132,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -145,7 +145,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -155,7 +155,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -168,7 +168,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -178,7 +178,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -191,7 +191,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -201,7 +201,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
@@ -214,7 +214,7 @@ const CreativeAgencyPortfolio = () => {
             <SwiperSlide>
               <div className="portfolio__slide-7">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -224,7 +224,7 @@ const CreativeAgencyPortfolio = () => {
                   </Link>
                 </div>
                 <div className="slide-content">
-                  <Link href="/portfolio-details">
+                  <Link href="/">
                     <h2 className="title">
                       {" "}
                       Lionpro <span>Agency</span>{" "}
