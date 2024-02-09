@@ -86,7 +86,7 @@ export default function Footer5() {
                 <Link href="https://nunosoft.net">company</Link>
               </li>
               <li>
-                <Link href="https://nunosoft.net/career">career</Link>
+                <Link href="https://join.com/companies/nunosoft">career</Link>
               </li>
               <li>
                 <Link href="https://legal.nunosoft.net/privacy">

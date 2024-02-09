@@ -100,7 +100,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <Link href="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link href="/career">Career</Link>
+                  <Link href="https://join.com/companies/nunosoft">Career</Link>
                 </li>
                 {/* <li>
                   <Link href="/blog">Blog</Link>

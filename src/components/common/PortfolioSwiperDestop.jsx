@@ -568,7 +568,9 @@ const PortfolioSwiperDestop = ({ portfolioSection, portfolioHeroImg }) => {
                               <Link href="/contact">contact</Link>
                             </li>
                             <li>
-                              <Link href="/career">Career</Link>
+                              <Link href="https://join.com/companies/nunosoft">
+                                Career
+                              </Link>
                             </li>
                             <li>
                               <Link href="/faq">FAQs</Link>
