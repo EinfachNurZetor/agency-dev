@@ -141,6 +141,7 @@ export default function Footer5() {
                   name="email"
                   placeholder="Enter your email"
                   value={email}
+                  required
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <button type="submit" className="submit" disabled={submitting}>

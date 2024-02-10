@@ -99,6 +99,7 @@ const Contact1 = () => {
                         name="name"
                         placeholder="Name *"
                         value={name}
+                        required
                         onChange={(e) => setName(e.target.value)}
                       />
                     </div>
@@ -108,6 +109,7 @@ const Contact1 = () => {
                         name="email"
                         placeholder="Email *"
                         value={email}
+                        required
                         onChange={(e) => setEMail(e.target.value)}
                       />
                     </div>
@@ -127,6 +129,7 @@ const Contact1 = () => {
                         type="text"
                         name="subject"
                         placeholder="Subject *"
+                        required
                         value={subject}
                         onChange={(e) => setSubject(e.target.value)}
                       />
@@ -137,6 +140,7 @@ const Contact1 = () => {
                       <textarea
                         id="message"
                         name="message"
+                        required
                         placeholder="Messages *"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
