@@ -3,12 +3,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import ArrowRight from "../../../public/assets/imgs/portfolio/11/arrow-right.png";
 import Link from "next/link";
 import Image from "next/image";
+import { useFormspark } from "@formspark/use-formspark";
+
+const FORMSPARK_FORM_ID = "tOQ9W3lh9";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/free-mode";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function Footer5() {
   const menuAnim = useRef();
@@ -21,6 +24,19 @@ export default function Footer5() {
       menuAnimation(menuAnim2);
     }
   }, []);
+  const [submit, submitting] = useFormspark({
+    formId: FORMSPARK_FORM_ID,
+  });
+
+  const [email, setEmail] = useState("");
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    await submit({ email });
+    setEmail("");
+    alert("Form submitted");
+  };
+
   const menuAnimation = (data) => {
     let rootParent = data.current.children;
     for (let i = 0; i < rootParent.length; i++) {
@@ -119,13 +135,15 @@ export default function Footer5() {
           <div className="categories_item l_item">
             <h4 className="cat_title">newsletter</h4>
             <div className="footer__subscribe-2">
-              <form action="#">
+              <form onSubmit={onSubmit}>
                 <input
                   type="text"
                   name="email"
                   placeholder="Enter your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
-                <button type="submit" className="submit">
+                <button type="submit" className="submit" disabled={submitting}>
                   <Image
                     priority
                     style={{ width: "auto", height: "auto" }}

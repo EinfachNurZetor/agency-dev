@@ -178,12 +178,7 @@ const ModernAgencyWork = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="work8__btn">
-              <Link href="/portfolio" className="blog__btn about_btn">
-                view all works
-                <span>
-                  <i className="fa-solid fa-arrow-right"></i>
-                </span>
-              </Link>
+              
             </div>
           </div>
         </div>

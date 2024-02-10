@@ -25,7 +25,6 @@ const ModernAgency = () => {
           <ModernAgencyPortfolio />
           <ModernAgencyWork />
           <NunosoftBrands />
-          <ModernAgencyAbout />
           <ModernAgencySingleImage />
         </RootLayout>
       </main>

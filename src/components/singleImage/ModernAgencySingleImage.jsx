@@ -22,8 +22,8 @@ const ModernAgencySingleImage = () => {
             <p className="single_dis pb-110 fade_bottom_4">
             Creating a website involves more than just aesthetic appeal. It's about developing a site that is easy to navigate, loads quickly, and is optimized for search engines. Similarly, with software, our aim is not only to ensure it functions correctly, but also to make it user-friendly and visually appealing.            </p>
             <div className="single__thumb">
-              <video loop muted autoPlay playsInline>
-                <source src="assets/video/video.mp4" type="video/mp4" />
+            <video loop muted autoPlay playsInline>
+                <source src="assets/video/textloop.mp4" type="video/mp4" />
               </video>
               <Image
                 priority
