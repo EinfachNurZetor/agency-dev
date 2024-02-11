@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import ThumbDev1 from "../../../public/assets/imgs/thumb/dev-1.jpg";
 import ThumbDev2 from "../../../public/assets/imgs/thumb/dev-2.jpg";
+import web from "../../../public/assets/imgs/thumb/webservice/thumb.png";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
 
@@ -50,24 +51,14 @@ const WebServiceDetails = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
+            <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
               <div className="development__img">
                 <Image
                   priority
                   style={{ width: "auto", height: "auto" }}
-                  src={ThumbDev1}
+                  src={web}
                   alt="Development Image"
                   data-speed="auto"
-                />
-              </div>
-            </div>
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <div className="development__img">
-                <Image
-                  priority
-                  style={{ width: "auto", height: "auto" }}
-                  src={ThumbDev2}
-                  alt="Development Image"
                 />
               </div>
             </div>

@@ -3,6 +3,7 @@ import ThumbDev1 from "../../../public/assets/imgs/thumb/dev-1.jpg";
 import ThumbDev2 from "../../../public/assets/imgs/thumb/dev-2.jpg";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
+import software from "../../../public/assets/imgs/thumb/softwareservice/thumb.png";
 
 const SoftwareServiceDetails = () => {
   const charAnim = useRef();
@@ -36,7 +37,6 @@ const SoftwareServiceDetails = () => {
                     that are up to our standards. To achieve this, we work with
                     the best developers and designers to deliver the best
                     possible product.
-
                   </p>
                 </div>
                 <ul>
@@ -49,24 +49,14 @@ const SoftwareServiceDetails = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
+            <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
               <div className="development__img">
                 <Image
                   priority
                   style={{ width: "auto", height: "auto" }}
-                  src={ThumbDev1}
+                  src={software}
                   alt="Development Image"
                   data-speed="auto"
-                />
-              </div>
-            </div>
-            <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <div className="development__img">
-                <Image
-                  priority
-                  style={{ width: "auto", height: "auto" }}
-                  src={ThumbDev2}
-                  alt="Development Image"
                 />
               </div>
             </div>
