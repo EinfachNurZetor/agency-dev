@@ -18,6 +18,7 @@ const Contact1 = () => {
   const [email, setEMail] = useState("");
   const [phone, setPhone] = useState("");
   const [subject, setSubject] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     animationCharCome(charAnim.current);
@@ -27,12 +28,13 @@ const Contact1 = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     await submit({ message, name, email, phone, subject });
+    setSubmitted(true);
     setMessage("");
     setName("");
     setEMail("");
     setPhone("");
     setSubject("");
-    alert("Form submitted");
+    // alert("Form submitted");
   };
 
   return (
@@ -147,16 +149,26 @@ const Contact1 = () => {
                       ></textarea>
                     </div>
                   </div>
+                  {submitted && (
                     <div className="row g-3">
                       <div className="col-12">
-                        <div className="btn_wrapper">
-                          <button className="wc-btn-primary btn-hover btn-item" disabled={submitting}>
-                            <span></span> Send <br />
-                            Message <i className="fa-solid fa-arrow-right"></i>
-                          </button>
-                        </div>
+                        <p>Successfully sent contact message!</p>
                       </div>
                     </div>
+                  )}
+                  <div className="row g-3">
+                    <div className="col-12">
+                      <div className="btn_wrapper">
+                        <button
+                          className="wc-btn-primary btn-hover btn-item"
+                          disabled={submitting}
+                        >
+                          <span></span> Send <br />
+                          Message <i className="fa-solid fa-arrow-right"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </form>
               </div>
             </div>
