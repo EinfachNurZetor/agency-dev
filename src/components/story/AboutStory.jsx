@@ -1,7 +1,6 @@
-import Story1 from "../../../public/assets/imgs/story/1.jpg";
+import Story1 from "../../../public/assets/imgs/story/300.png";
 import Story2 from "../../../public/assets/imgs/team/team.png";
-import Story3 from "../../../public/assets/imgs/story/3.jpg";
-import Story4 from "../../../public/assets/imgs/story/4.jpg";
+import Story4 from "../../../public/assets/imgs/story/410.png";
 import Image from "next/image";
 
 const AboutStory = () => {
@@ -17,7 +16,9 @@ const AboutStory = () => {
 
             <div className="row">
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                <h2 className="sec-sub-title title-anim">Nunosoft Development</h2>
+                <h2 className="sec-sub-title title-anim">
+                  Nunosoft Development
+                </h2>
                 <h3 className="sec-title title-anim">Our story</h3>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
@@ -30,12 +31,15 @@ const AboutStory = () => {
                     When looking on the software development industry, we saw
                     that most of the software was beeing made by companies that
                     worked a lot with outsourcing and that can be noticed in the
-                    quality of the product. With our network we have the
-                    ability to create a product that is made with passion and
-                    love.
+                    quality of the product. With our network we have the ability
+                    to create a product that is made with passion and love.
                   </p>
                   <p>
-                    At Nunosoft Development, every project is a passion project for us and our team. We will never deliver a product that we are not proud of and that is not up to our standards. We are here to revolutionize the digital world and make a impact on the world.
+                    At Nunosoft Development, every project is a passion project
+                    for us and our team. We will never deliver a product that we
+                    are not proud of and that is not up to our standards. We are
+                    here to revolutionize the digital world and make a impact on
+                    the world.
                   </p>
                 </div>
               </div>
@@ -68,13 +72,6 @@ const AboutStory = () => {
             </div>
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <div className="story__img-wrapper">
-                <Image
-                  priority
-                  width={230}
-                  style={{ height: "auto" }}
-                  src={Story3}
-                  alt="Story Thumbnail"
-                />
                 <Image
                   priority
                   width={410}

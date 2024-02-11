@@ -2,11 +2,6 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import Award1 from "../../../public/assets/imgs/awards/awards-01.png";
-import Award2 from "../../../public/assets/imgs/awards/awards-02.png";
-import Award3 from "../../../public/assets/imgs/awards/awards-03.png";
-import Award4 from "../../../public/assets/imgs/awards/awards-04.png";
-import Award5 from "../../../public/assets/imgs/awards/awards-05.png";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);

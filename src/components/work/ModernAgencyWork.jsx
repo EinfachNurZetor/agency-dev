@@ -4,12 +4,6 @@ import { FreeMode, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { gsap } from "gsap";
 import { ScrollTrigger, ScrollSmoother } from "@/plugins";
-import work1 from "../../../public/assets/imgs/work/portfolio/work-01.jpg";
-import work2 from "../../../public/assets/imgs/work/portfolio/work-02.jpg";
-import work3 from "../../../public/assets/imgs/work/portfolio/work-03.jpg";
-import work4 from "../../../public/assets/imgs/work/portfolio/work-04.jpg";
-import work5 from "../../../public/assets/imgs/work/portfolio/work-05.jpg";
-import work6 from "../../../public/assets/imgs/work/portfolio/work-06.jpg";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -177,9 +171,7 @@ const ModernAgencyWork = () => {
 
         <div className="row">
           <div className="col-lg-12">
-            <div className="work8__btn">
-              
-            </div>
+            <div className="work8__btn"></div>
           </div>
         </div>
       </div>

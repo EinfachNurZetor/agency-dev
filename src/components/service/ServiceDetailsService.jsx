@@ -1,4 +1,3 @@
-import ServiceDetail from "../../../public/assets/imgs/thumb/service-detail.png";
 import Shape6 from "../../../public/assets/imgs/icon/shape-6.png";
 import Image from "next/image";
 
