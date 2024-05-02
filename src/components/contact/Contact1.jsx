@@ -76,7 +76,7 @@ const Contact1 = () => {
                     <Link href="tel:+436609242214">+43 (660) 92 42 214</Link>
                   </li>
                   <li>
-                    <Link href="tel:+4917632420693">+49 (176) 32 42 06 93</Link>
+                    <Link href="tel:+4915147055256">+49 (151) 47 05 52 56</Link>
                   </li>
                   <li>
                     <a href="mailto:contact@nunosoft.net">
